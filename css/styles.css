@@ -168,7 +168,7 @@ section {
 .btn-box {
   display: flex;
   left: 50%;
-  transform: translateX(25%);
+  transform: translateX(30%);
 }
 .cta-btn {
   background-color: rgba(255, 255, 255, 0.8);
@@ -272,5 +272,13 @@ section {
   }
   .content {
     display: inline;
+  }
+}
+@media (max-width: 720px) {
+  .btn-box {
+    transform: translateX(5%);
+  }
+  .cta-btn {
+    padding: 20px 30px;
   }
 }
